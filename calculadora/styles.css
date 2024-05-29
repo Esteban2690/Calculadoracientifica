@@ -1,0 +1,48 @@
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    font-size: 100px; /* Reducir el tamaño de la fuente */
+    background-color: #3700ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.10s; /* Agregar transición al color de fondo */
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+/* Estilos adicionales para centrar */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 250px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+}
